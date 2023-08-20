@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <title>Formsubmit</title>
+</head>
+<body>
+
+   <H1>Registration Form</H1>
+ 
+    <form action="https://formsubmit.co/denelle728@gmail.com" method="post">
+
+    
+<!-- user Name  -->
+   <div>
+     <label for="user_name">User ID:</label>
+     <input type="text" id="user_name" name="user_name" required 
+     minlength="5" maxlength="12" placeholder="John_Doe" required>
+   </div>
+
+<br>
+
+<!-- Password -->
+   <div>
+     <label for="Password">Password:</label>
+     <input type="Password" id="Password" name="Password" minlength="7" maxlength="12" 
+     placeholder="12345!@#" required>
+   </div>
+
+<br>
+
+<!-- Name: -->
+   <div>
+     <label for="name">Name:</label>
+     <input type="text" name="name" id="Name" placeholder="Johnathan Doe" 
+     required>
+   </div>
+
+<br>
+
+<!-- address -->
+   <div>
+     <label for="address">Address:</label>
+     <input type="text" name="Address" placeholder="Optional">
+  </div>
+
+
+<br>
+<!-- country -->
+
+   <div>
+     <label for="Country">Country:</label>
+      <select name="Country" id="Country" required>
+        <option value="None">None</option>
+        <option value="Country1">Angola</option>
+        <option value="Country2">Botswana</option>
+        <option value="Country3">Cameroon</option>
+        <option value="Country4">Egypt</option>
+        <option value="Country5">Ghana</option>
+        <option value="Country6">South Africa</option>
+     </select>
+    </div>
+
+<br>
+
+<!-- zip code -->
+    <div>
+      <label for="Zip code">Zip code:</label>
+      <input type="numbers" name="Zip code" id="Zip code" placeholder="2940" 
+      required> 
+   </div>
+
+<br>
+<br>
+
+<!-- email -->
+
+   <div>
+     <label for="email">E-mail:</label>
+     <input type="email" id="email" name="email" placeholder="E-mail address" 
+     required>
+   </div>
+
+<br>
+
+<!-- sex: -->
+   <label for="sex">Sex:</label>
+
+   Male <input type="radio" name="gender" value="Male" required>
+   Female <input type="radio" name="gender" value="Female">
+   Other <input type="radio" name="gender" value="Other">
+
+<br>
+<br>
+<!-- language: -->
+
+  <label for="Language">Language</label>
+
+  English <input type="checkbox" name="language" value="English" required>
+  Non English <input type="checkbox" name="language" value="Non English">
+
+<br>
+<br>
+
+<!-- Message/about -->
+
+     <div>
+       <label for="msg">Message:</label>
+<br>
+       <textarea name="message" placeholder="Write a message!" ></textarea>
+     </div>
+
+<br>
+
+<!-- Submit -->
+
+<input class="submit" type="submit" value="Send">
+</form>
+
+</body>
+</html>
